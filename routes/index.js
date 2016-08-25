@@ -11,7 +11,7 @@ var twitter = new Twit({
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Random Chuck Norris Joke Tweeter' });
+  res.render('index', { title: 'Tweet a Random Chuck Norris Joke (or Chuck Norris will Tweet Your Face!)' });
 });
 
 module.exports = router;
