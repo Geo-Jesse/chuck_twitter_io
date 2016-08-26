@@ -1,6 +1,12 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: left;
+  background-image: url('/images/chuck-norris-movies.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  color: white;
 }
 
 a {
