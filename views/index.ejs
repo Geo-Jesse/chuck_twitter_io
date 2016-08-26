@@ -2,9 +2,7 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-    <script src="~/javascripts/script.js" charset="utf-8"></script>
+
   </head>
   <body>
     <h1><%= title %></h1>
@@ -15,6 +13,11 @@
 
     <p>Welcome to <%= title %></p>
 
-
+    <div id="featured_joke_display" class="joke_move"></div>
+    <ul class="main_list">
+    </ul>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script src="/javascripts/script.js" charset="utf-8"></script>
   </body>
 </html>
