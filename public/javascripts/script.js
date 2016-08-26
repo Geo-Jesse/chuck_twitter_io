@@ -6,8 +6,8 @@ $(document).ready(function () {
       url: 'http://api.icndb.com/jokes/random'
      }).done(function(results) {
        console.log(results);
-      $('.joke_move').html(results.value.joke);
-      var newLine = $('<li></li>');
+        $mainJoke
+       var newLine = $('<li></li>');
       newLine.text(results.value.joke);
       $('main_list').append(newLine);
 
@@ -15,3 +15,4 @@ $(document).ready(function () {
    }
 
 });
+var $mainJoke =$('.joke_move').html(results.value.joke);
